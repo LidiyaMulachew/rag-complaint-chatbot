@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (VERY IMPORTANT)
+data/raw/complaints.csv
+data/raw/
+data/processed/
+*.parquet
+
+# Vector databases (VERY IMPORTANT)
+vector_store/
+chroma.sqlite3
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
